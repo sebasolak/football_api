@@ -26,43 +26,43 @@ http://localhost:{your_default_port}/registration
 ```
 ## Api map:
 
-* To select team info by team name type it in teamName like below (get request):
+* To select team info by team name type it in teamName like below (GET request):
 ```
 http://localhost:{your_default_port}/team/name/{teamName}
 ```
-* Select team by id (get request):
+* Select team by id (GET request):
 ```
 http://localhost:{your_default_port}/team/id/{idTeam}
 ```
-* Save team (post request):
+* Save team (POST request):
 ```
 http://localhost:{your_default_port}/team/id/{idTeam}
 ```
-* Select team events by team id (get request):
+* Select team events by team id (GET request):
 ```
 http://localhost:{your_default_port}/team/event/{idTeam}
 ```
-* Delete team from favorite (delete request): 
+* Delete team from favorite (DELETE request): 
 ```
 http://localhost:{your_default_port}/team/id/{idTeam}
 ```
-* List closests events of your favouite teams (get request):
+* List closests events of your favouite teams (GET request):
 ```
 http://localhost:{your_default_port}/team/my/next
 ```
-* Send an email with closests events of your favouite teams (get request):
+* Send an email with closests events of your favouite teams (GET request):
 ```
 http://localhost:{your_default_port}/team/my/send
 ```
-* Select all available league (get request):
+* Select all available league (GET request):
 ```
 http://localhost:{your_default_port}/team/table/lig
 ```
-* Select current table by league id (get request):
+* Select current table by league id (GET request):
 ```
 http://localhost:{your_default_port}/team/table/{idLeague}
 ```
-* List your favorite teams (get request):
+* List your favorite teams (GET request):
 ```
 http://localhost:{your_default_port}/team/my/saved
 ```
