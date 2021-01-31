@@ -15,7 +15,7 @@ gmail email and password if you want api be able to send emails
 ```
 http://localhost:{your_default_port}/registration
 ```
-   and send a body in post request like example below:
+   and send a body in POST request like example below:
 ```
 {
     "login": "seba123",
